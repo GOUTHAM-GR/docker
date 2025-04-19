@@ -1,0 +1,1 @@
+docker run -itd --name webApp -p 3100:8080 nginx
