@@ -1,0 +1,7 @@
+Objectives:
+    1. A cluster of 3 servers which will have 1 Manager and 2 worker nodes. These servers can either be on cloud such as AWS / GCP or local virtual machines. 
+       The assumption is that you're using Ubuntu 16.04+ Operating System
+
+    2. Make sure that the cluster is setup and configured properly including the Overlay network that would be set up by Docker swarm at the time of initialization.
+
+    3. Deploy a simple nginx “service” with a replica set of 3 on the cluster to verify the integrity.
